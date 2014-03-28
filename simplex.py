@@ -161,6 +161,7 @@ class linprog(object):
 def main():
     lines = sys.stdin.read().strip().split('\n')
     if not lines:
+        print('could not read input.')
         print(usage)
         return
     try:
